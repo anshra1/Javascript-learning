@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Dev Server (Watch Active File)",
+    "command": "node",
+    "args": ["--watch", "$ZED_FILE"],
+    "cwd": "$ZED_DIRNAME",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false
+  },
+  {
+    "label": "Run Current Node File",
+    "command": "node",
+    "args": ["$ZED_FILE"],
+    "cwd": "$ZED_DIRNAME",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false
+  }
+]
